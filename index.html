@@ -1,100 +1,112 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Redirecionador de Links</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Redirecionador de Links</title>
 
-  <!-- Ícone da página (favicon) -->
-  <!-- Tamanho recomendado: 32x32 ou 48x48 pixels -->
-  <link rel="icon" type="image/png" sizes="32x32" href="coracao.png">
 
-  <!-- Fonte Parisienne -->
-  <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+<!-- Ícone da página (favicon) -->
+<!-- Tamanho recomendado: 32x32 ou 48x48 pixels -->
+<link rel="icon" type="image/png" sizes="32x32" href="coracao.png">
 
-  <style>
-    * {
-      box-sizing: border-box;
-    }
 
-    body {
-      font-family: 'Parisienne', serif;
-      background-color: #000000;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    }
+<!-- Fonte Parisienne -->
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
 
-    .container {
-      width: 100%;
-      max-width: 420px;
-      padding: 24px;
-      border-radius: 16px;
-      background: linear-gradient(180deg, #0f0f0f, #000000);
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
-    }
 
-    h1 {
-      text-align: center;
-      font-size: 32px;
-      margin-bottom: 24px;
-      color: #ffffff;
-      letter-spacing: 1px;
-    }
+<style>
+* {
+box-sizing: border-box;
+}
 
-    .link-list {
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-    }
 
-    .link-item {
-      padding: 16px;
-      background: transparent;
-      color: #ffffff;
-      text-align: center;
-      border-radius: 12px;
-      text-decoration: none;
-      font-size: 22px;
-      border: 1px solid rgba(255, 255, 255, 0.4);
-      transition: all 0.25s ease;
-    }
+body {
+font-family: 'Parisienne', serif;
+background-color: #000000;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
 
-    .link-item:hover {
-      background-color: #ffffff;
-      color: #000000;
-      transform: translateY(-2px);
-    }
 
-    /* Ajustes para telas maiores */
-    @media (min-width: 768px) {
-      .container {
-        max-width: 480px;
-      }
+.container {
+width: 100%;
+max-width: 420px;
+padding: 24px;
+border-radius: 16px;
+background: linear-gradient(180deg, #0f0f0f, #000000);
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+}
 
-      h1 {
-        font-size: 36px;
-      }
 
-      .link-item {
-        font-size: 24px;
-      }
-    }
-  </style>
+h1 {
+text-align: center;
+font-size: 32px;
+margin-bottom: 24px;
+color: #ffffff;
+letter-spacing: 1px;
+}
+
+
+.link-list {
+display: flex;
+flex-direction: column;
+gap: 14px;
+}
+
+
+.link-item {
+padding: 16px;
+background: transparent;
+color: #ffffff;
+text-align: center;
+border-radius: 12px;
+text-decoration: none;
+font-size: 22px;
+border: 1px solid rgba(255, 255, 255, 0.4);
+transition: all 0.25s ease;
+}
+
+
+.link-item:hover {
+background-color: #ffffff;
+color: #000000;
+transform: translateY(-2px);
+}
+
+
+/* Ajustes para telas maiores */
+@media (min-width: 768px) {
+.container {
+max-width: 480px;
+}
+
+
+h1 {
+font-size: 36px;
+}
+
+
+.link-item {
+font-size: 24px;
+}
+}
+</style>
 </head>
 <body>
-  <div class="container">
-    <h1>Escolha um link</h1>
+<div class="container">
+<h1>Escolha um link</h1>
 
-    <div class="link-list">
-      <a class="link-item" href="https://www.google.com" target="_blank">Google</a>
-      <a class="link-item" href="https://www.youtube.com" target="_blank">YouTube</a>
-      <a class="link-item" href="https://www.linkedin.com" target="_blank">LinkedIn</a>
-      <a class="link-item" href="https://github.com" target="_blank">GitHub</a>
-    </div>
-  </div>
+<div class="link-list">
+<a class="link-item" href="https://suntzubr.github.io/moments" target="_blank">Nossos Momentos</a>
+<a class="link-item" href="https://pt.stardewvalleywiki.com/Pingente_de_sereia" target="_blank">Significado do Presente</a>
+<!-- <a class="link-item" href="https://breve" target="_blank">breve</a>
+<a class="link-item" href="https://breve" target="_blank">breve</a> -->
+</div>
+</div>
 </body>
 </html>
